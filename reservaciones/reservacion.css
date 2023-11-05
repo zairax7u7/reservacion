@@ -27,13 +27,16 @@ body{
 .main__part-one{
     width: 49%;
     height: 100%;
-    margin-right: 2%;
+    margin-right: 3%;
+    margin-left: 2%;
     background-color: var(--main-color);
     border-radius: 10px;
 }
 
 .main__part-two{
-    background-color: var(--main-color);
+    background-image: url(./imagenes_reservacion/HR_Reservacion_page-0001\ \(1\).jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 49%;
     height: 100%;
     border-radius: 10px;

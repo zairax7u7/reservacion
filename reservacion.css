@@ -1,0 +1,34 @@
+:root{
+    --backgroud-color: #ececec;
+    --main-color: #ffffff ;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{ 
+    box-sizing: border-box;
+    background-color: var(--backgroud-color);
+    margin: 0%;
+    padding: 2vh;
+    display: flex;
+}
+
+.main{
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 96vh;
+}
+
+.header{
+    box-sizing: border-box;
+    background-color: var(--main-color);
+    width: 20vh;
+    height: 96vh;
+    margin-right: 2vw;
+    border-radius: 10px;
+}

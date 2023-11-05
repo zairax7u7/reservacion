@@ -18,10 +18,25 @@ body{
 }
 
 .main{
+    display: flex;
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 96vh;
+}
+
+.main__part-one{
+    width: 49%;
+    height: 100%;
+    margin-right: 2%;
+    background-color: var(--main-color);
+    border-radius: 10px;
+}
+
+.main__part-two{
+    background-color: var(--main-color);
+    width: 49%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 .header{

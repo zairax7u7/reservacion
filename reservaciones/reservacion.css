@@ -42,11 +42,20 @@ body{
     border-radius: 10px;
 }
 
+.part-two__header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+/* sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
 .header{
     box-sizing: border-box;
     background-color: var(--main-color);
-    width: 20vh;
+    width: 30vh;
     height: 96vh;
     margin-right: 2vw;
+    margin-left: 2vw;
     border-radius: 10px;
 }
+
